@@ -1,0 +1,14 @@
+name: spookydifficulty
+version: '${version}'
+main: me.oxtailsooop.spookydifficulty.SpookyDifficulty
+api-version: '1.20'
+prefix: SpookyDifficulty
+authors: [OxtailSooop]
+description: Spooky Difficulty
+website: https://github.com/OxtailSooop/SpookyDifficulty
+load: STARTUP
+commands:
+  spookyspawn:
+    description: Spooky Spawn
+    usage: /spookyspawn <Entity>
+    permission: spookydifficulty.canspookyspawn
